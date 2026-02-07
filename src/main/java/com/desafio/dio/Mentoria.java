@@ -3,13 +3,11 @@ package com.desafio.dio;
 import java.time.LocalDate;
 
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 @Data
-public class Mentoria {
-
-    private String name;
-
-    private String descricao;
+@EqualsAndHashCode(callSuper = true)
+public class Mentoria extends Conteudo {
 
     private LocalDate dataMentoria;
 
@@ -17,6 +15,4 @@ public class Mentoria {
 
     };
 
-    public void calcularXP() {
-    };
 }

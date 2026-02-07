@@ -1,12 +1,11 @@
 package com.desafio.dio;
 
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 @Data
-public class Curso {
-    private String name;
-
-    private String descricao;
+@EqualsAndHashCode(callSuper = true)
+public class Curso extends Conteudo {
 
     private int cargaHoraria;
 
@@ -14,6 +13,4 @@ public class Curso {
 
     };
 
-    public void calcularXP() {
-    };
 }
