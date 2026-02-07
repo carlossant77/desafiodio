@@ -3,12 +3,13 @@ package com.desafio.dio;
 import lombok.Data;
 
 @Data
-public class Conteudo {
+public abstract class Conteudo {
+
+    protected static final double XP_PADRAO = 10;
 
     private String name;
     private String descricao;
 
-    public void calcularXP() {
-    };
+    public abstract double calcularXP();
 
 }

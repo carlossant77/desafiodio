@@ -15,4 +15,19 @@ public class Mentoria extends Conteudo {
 
     };
 
+    @Override
+    public double calcularXP() {
+        return 20 + XP_PADRAO;
+    }
+
+    public String toString() {
+        return String.format("""
+                Mentoria: {
+                nome: "%s"
+                descricao: "%s"
+                dataMentoria: "%s"
+                }
+                """, getName(), getDescricao(), getDataMentoria());
+    }
+
 }

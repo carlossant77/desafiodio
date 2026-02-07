@@ -19,7 +19,7 @@ public class Main {
         mentoria.setDescricao("Uma mentoria de Java");
         mentoria.setDataMentoria(LocalDate.now());
 
-        System.out.print(mentoria.toString());
+        System.out.print(curso.toString());
     }
 
 }
