@@ -25,7 +25,7 @@ public class Curso extends Conteudo {
                 descricao: "%s"
                 cargaHoraria: "%s"
                 }
-                """, getName(), getDescricao(), getCargaHoraria());
+                """, getNome(), getDescricao(), getCargaHoraria());
     }
 
 }

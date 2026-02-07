@@ -27,7 +27,7 @@ public class Mentoria extends Conteudo {
                 descricao: "%s"
                 dataMentoria: "%s"
                 }
-                """, getName(), getDescricao(), getDataMentoria());
+                """, getNome(), getDescricao(), getDataMentoria());
     }
 
 }
