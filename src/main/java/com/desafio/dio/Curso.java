@@ -18,6 +18,7 @@ public class Curso extends Conteudo {
         return cargaHoraria * XP_PADRAO;
     }
 
+    @Override
     public String toString() {
         return String.format("""
                 Curso: {

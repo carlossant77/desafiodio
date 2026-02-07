@@ -22,6 +22,9 @@ public class Main {
         System.out.print(curso.toString());
         System.out.print(curso2.toString());
         System.out.print(mentoria.toString());
+
+        Dev dev = new Dev();
+        dev.progredir();
     }
 
 }

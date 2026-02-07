@@ -10,12 +10,11 @@ import lombok.Data;
 @Data
 public class Bootcamp {
 
-    private LocalDate dataInicial;
-    private LocalDate dataFinal;
+    private final LocalDate dataInicial = LocalDate.now();
+    private final LocalDate dataFinal = dataInicial.plusDays(45);
     private String nome;
     private String descricao;
     private Set<Dev> devs = new HashSet<>();
-    private Set<Mentoria> mentorias = new LinkedHashSet<>();
-    private Set<Curso> cursos = new LinkedHashSet<>();
+    private Set<Conteudo> conteudos = new LinkedHashSet<>();
 
 }

@@ -12,4 +12,6 @@ public abstract class Conteudo {
 
     public abstract double calcularXP();
 
+    public abstract String toString();
+
 }

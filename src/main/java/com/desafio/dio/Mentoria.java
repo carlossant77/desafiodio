@@ -20,6 +20,7 @@ public class Mentoria extends Conteudo {
         return 20 + XP_PADRAO;
     }
 
+    @Override
     public String toString() {
         return String.format("""
                 Mentoria: {
